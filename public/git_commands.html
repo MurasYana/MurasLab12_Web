@@ -26,7 +26,47 @@
     <main class="git-container">
         <div class="git-grid">
             
-            
+            <!-- Колонка 1: Create a Repository & Observe Your Repository -->
+            <div class="git-column">
+                <section class="git-section">
+                    <h2 class="blue-heading">Create a Repository</h2>
+                    <p class="section-desc">From scratch -- create a new local repository</p>
+                    <code class="git-cmd">$ git init [project name]</code>
+
+                    <p class="section-desc">Download from an existing repository</p>
+                    <code class="git-cmd">$ git clone my_url</code>
+                </section>
+
+                <section class="git-section">
+                    <h2 class="blue-heading">Observe Your Repository</h2>
+                    <p class="section-desc">List new or modified files not yet committed</p>
+                    <code class="git-cmd">$ git status</code>
+
+                    <p class="section-desc">Show the changes to files not yet staged</p>
+                    <code class="git-cmd">$ git diff</code>
+
+                    <p class="section-desc">Show the changes to staged files</p>
+                    <code class="git-cmd">$ git diff --cached</code>
+
+                    <p class="section-desc">Show all staged and unstaged file changes</p>
+                    <code class="git-cmd">$ git diff HEAD</code>
+
+                    <p class="section-desc">Show the changes between two commit; ids</p>
+                    <code class="git-cmd">$ git diff commit1 commit2</code>
+
+                    <p class="section-desc">List the change dates and authors for a file</p>
+                    <code class="git-cmd">$ git blame [file]</code>
+
+                    <p class="section-desc">Show the file changes for a commit id and/or file</p>
+                    <code class="git-cmd">$ git show [commit]: [file]</code>
+
+                    <p class="section-desc">Show full change history</p>
+                    <code class="git-cmd">$ git log</code>
+
+                    <p class="section-desc">Show change history for file/directory including diffs</p>
+                    <code class="git-cmd">$ git log -p [file/directory]</code>
+                </section>
+            </div>
 
         </div>
     </main>
